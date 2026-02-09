@@ -206,7 +206,6 @@ credits.BackgroundTransparency = 1
 credits.Parent = main
 
 -- 7. Utility Logic
-closeBtn.MouseButton1Click:Connect(function() sg:Destroy() end)
 local isMin = false
 minBtn.MouseButton1Click:Connect(function()
     isMin = not isMin
