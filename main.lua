@@ -34,14 +34,14 @@ local speedIcon = TopbarPlus.new()
     :setLabel("Speed")
     :setIcon("rbxassetid://76782366063523")
     :bindEvent("selected", function()
-        toggleLoadstring("SpeedGui", "https://raw.githubusercontent.com/1ForeverHD/TopbarPlus/main/init.lua") -- replace with your actual loadstring URL
+        toggleLoadstring("SpeedGui", "https://raw.githubusercontent.com/YzSMG/BoNaif-s-vehicle-control-V2/refs/heads/main/scripts/speed%20modifier.lua") -- replace with your actual loadstring URL
     end)
 
 local suspensionIcon = TopbarPlus.new()
     :setLabel("Suspension")
     :setIcon("rbxassetid://76782366063523")
     :bindEvent("selected", function()
-        toggleLoadstring("SuspensionGui", "https://raw.githubusercontent.com/1ForeverHD/TopbarPlus/main/init.lua") -- replace with your actual loadstring URL
+        toggleLoadstring("SuspensionGui", "https://raw.githubusercontent.com/YzSMG/BoNaif-s-vehicle-control-V2/refs/heads/main/scripts/suspension%20control.lua") -- replace with your actual loadstring URL
     end)
 
 -- ===== NOTIFICATION FUNCTION =====
